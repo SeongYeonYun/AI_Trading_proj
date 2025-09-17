@@ -1,0 +1,52 @@
+positive:
+  - term: 수주
+    weight: 1.0
+  - term: 공급계약
+    weight: 1.2
+  - term: 실적호조
+    weight: 1.1
+  - term: 가이던스 상향
+    weight: 1.2
+  - term: 자사주 매입
+    weight: 1.5
+  - term: 배당 상향
+    weight: 1.3
+  - term: 신규사업
+    weight: 0.9
+  - term: 인허가
+    weight: 1.0
+  - term: 승인
+    weight: 0.8
+  - term: 파트너십
+    weight: 0.7
+negative:
+  - term: 유상증자
+    weight: -1.5
+  - term: 감자
+    weight: -1.7
+  - term: 관리종목
+    weight: -1.8
+  - term: 거래정지
+    weight: -1.6
+  - term: 상장폐지
+    weight: -2.0
+  - term: 횡령
+    weight: -1.8
+  - term: 분식회계
+    weight: -2.0
+  - term: 감사의견 거절
+    weight: -2.0
+  - term: 실적부진
+    weight: -1.1
+  - term: 가이던스 하향
+    weight: -1.2
+  - term: 리콜
+    weight: -1.2
+  - term: 소송패소
+    weight: -1.1
+  - term: 영업정지
+    weight: -1.6
+modifiers:
+  intensify: ["대규모","최대","역대","급격","폭","사상"]
+  soften: ["소폭","경미","일부","가능성","관측"]
+negations: ["아니다","부인","사실무근","아닌","부정"]
