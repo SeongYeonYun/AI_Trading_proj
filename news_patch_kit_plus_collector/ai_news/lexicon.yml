@@ -1,0 +1,8 @@
+positive:
+  - {term: 수주, weight: 1.0}
+negative:
+  - {term: 유상증자, weight: -1.5}
+modifiers:
+  intensify: [대규모]
+  soften: [소폭]
+negations: [아니다]

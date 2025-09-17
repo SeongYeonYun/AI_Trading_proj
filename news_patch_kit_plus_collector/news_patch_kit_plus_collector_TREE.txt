@@ -1,0 +1,36 @@
+news_patch_kit_plus_collector/
+├── ai_news/
+│   ├── lexicon.yml
+│   └── news_features.py
+├── collectors/
+│   └── kiwoom_adapter.py
+├── configs/
+│   ├── cost.py
+│   ├── db_mysql.py
+│   └── schema.yml
+├── data/
+├── features/
+│   └── ta.py
+├── integrations/
+│   ├── ai_news_integration.py
+│   ├── aitb_bridge.py
+│   ├── db_bridge_mysql.py
+│   └── news_loader.py
+├── library/
+│   └── signal_adapter.py
+├── models/
+│   └── classical.py
+├── pipelines/
+│   └── run_e2e_integration.py
+├── plugins/
+│   └── strategy_ml_news.py
+├── scripts/
+├── sql/
+│   └── news_tables_mysql57.sql
+├── .gitattributes
+├── .gitignore
+├── MANIFEST.json
+├── news_integration.patch
+├── README.md
+├── README_PATCH.md
+└── requirements.txt

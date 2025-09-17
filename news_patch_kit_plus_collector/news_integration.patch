@@ -1,0 +1,18 @@
+*** Begin Patch
+*** Update File: library/simulator_func_mysql.py
+@@
+-# (기존 import들)
++# ML 뉴스 전략 import (추가)
++try:
++    from plugins.strategy_ml_news import get_buy_list_by_ml as _ml_buylist
++except Exception:
++    _ml_buylist = None
+@@
+-    # (기존 전략 분기들)
++    # (기존 전략 분기들)
++    # ML 뉴스 기반 전략 추가
++    if strategy in ("ML_SIGNAL", "ML_NEWS_RF"):
++        if _ml_buylist is None:
++            raise RuntimeError("plugins/strategy_ml_news.py 가 누락되었습니다. news_patch_kit_plus_collector를 설치하세요.")
++        return _ml_buylist(date, aitb_root=os.path.dirname(os.path.dirname(__file__)))
+*** End Patch

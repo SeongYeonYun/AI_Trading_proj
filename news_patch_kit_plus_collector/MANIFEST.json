@@ -1,0 +1,115 @@
+{
+  "generated_at": 1758077382.3426363,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 71,
+      "sha256": "7408e84bf09e0cd58ef7ea0b85dda7b472fa063dfdc667b730628ea553e0cd88"
+    },
+    {
+      "path": ".gitignore",
+      "size": 41,
+      "sha256": "0dbe84d9cfff927d064e68409e70d83590bb5dc8cf7dd0c1ab704dedd1cb1ec8"
+    },
+    {
+      "path": "README.md",
+      "size": 548,
+      "sha256": "f203657a49cf43994e41cbca5ebc2796bf7f90d966dcfe6b6809201f94904ff5"
+    },
+    {
+      "path": "README_PATCH.md",
+      "size": 552,
+      "sha256": "475bc663039167fef31c58b6525a4d0939844f3d7911da5cb343525796472365"
+    },
+    {
+      "path": "ai_news/lexicon.yml",
+      "size": 169,
+      "sha256": "3056a0bcd1656ab4d72c1219e7b55593e0d15976cbb068a0e4f5f3dade84c2d6"
+    },
+    {
+      "path": "ai_news/news_features.py",
+      "size": 1524,
+      "sha256": "d959693d6e9e3db6c5380428ba5a6dfaf3d6eea81455e760ef0063df38ea913c"
+    },
+    {
+      "path": "collectors/kiwoom_adapter.py",
+      "size": 1688,
+      "sha256": "01525d5eb8f093a282f65645eb1383c481c371917d0ca37529513c72ce0377f2"
+    },
+    {
+      "path": "configs/cost.py",
+      "size": 146,
+      "sha256": "4028c919e4c0a2340a853ae8ee42d28b386a90f573c59affa10709354ba05177"
+    },
+    {
+      "path": "configs/db_mysql.py",
+      "size": 241,
+      "sha256": "2474e018815e8e1de064cfa97276a44f1f5ea52752e82dc709348215351472fc"
+    },
+    {
+      "path": "configs/schema.yml",
+      "size": 159,
+      "sha256": "7cbd7e30ef6f77e67fe2c1bc99ce3a4010d391a5080513915e8ed12f3a64f990"
+    },
+    {
+      "path": "features/ta.py",
+      "size": 840,
+      "sha256": "20f750ea17de45dcfd2f6195d58e1a20321a2b49342e7846a3b8f263e352df70"
+    },
+    {
+      "path": "integrations/ai_news_integration.py",
+      "size": 1424,
+      "sha256": "85aa92d349a27c54e72d8c92aea65de3bbd85639ed2df34617c0833727e082be"
+    },
+    {
+      "path": "integrations/aitb_bridge.py",
+      "size": 842,
+      "sha256": "45523cc0246b409540522c7ae92ef992231549770cafbb1c15e2132bb9f78226"
+    },
+    {
+      "path": "integrations/db_bridge_mysql.py",
+      "size": 872,
+      "sha256": "f83777dd8b72e83ebb4aabba8abc49d2ca56deff6dca521b7ebae1da61cc6b75"
+    },
+    {
+      "path": "integrations/news_loader.py",
+      "size": 2975,
+      "sha256": "552f7ffebf4de2e31843fff3e8dbec6283aa4a12861a17e5a769096e03440a36"
+    },
+    {
+      "path": "library/signal_adapter.py",
+      "size": 1356,
+      "sha256": "53980f6f0c8628fcf12c34db10d5835415965203b46249a4af2cdb2a8b7a8025"
+    },
+    {
+      "path": "models/classical.py",
+      "size": 3223,
+      "sha256": "22ad15ea3043c8aad3a928c669a84de41d76a46ea90360e0fc1dc8af544f6b90"
+    },
+    {
+      "path": "news_integration.patch",
+      "size": 682,
+      "sha256": "89012e2922b63b288e41287d7ccbf52afe9f06415344e6b5a9bec0c5092e2da1"
+    },
+    {
+      "path": "pipelines/run_e2e_integration.py",
+      "size": 889,
+      "sha256": "dfb88e7ef201fdcfa25fc4a06fe93bc8ba67bdc467e8d64803225d0b875ac9b8"
+    },
+    {
+      "path": "plugins/strategy_ml_news.py",
+      "size": 664,
+      "sha256": "d6cdbd8ba298819685cd556ed0cbfb70e590ea69edc85d853412f053bcf486bb"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 41,
+      "sha256": "f9460f455f02b9f3f7a5e65832b334589bce51e69a4a8110a3a35a4ab62f89df"
+    },
+    {
+      "path": "sql/news_tables_mysql57.sql",
+      "size": 806,
+      "sha256": "f41d9b4bff2d6657b7d0e92fa6f7179ab63496bcedcf9629d0165184c2992ceb"
+    }
+  ]
+}

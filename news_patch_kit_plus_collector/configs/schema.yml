@@ -1,0 +1,9 @@
+ohlcv_daily_table: 'ohlcv_daily'
+columns:
+  date: 'trade_date'
+  ticker: 'code'
+  open: 'open'
+  high: 'high'
+  low: 'low'
+  close: 'close'
+  volume: 'volume'

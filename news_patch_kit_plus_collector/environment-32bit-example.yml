@@ -1,0 +1,16 @@
+name: trading-py37-32
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - numpy=1.21.6
+  - scipy=1.7.3
+  - pandas=1.3.5
+  - scikit-learn=1.0.2
+  - pip
+  - pip:
+      - PyYAML==5.4.1
+      - PyMySQL==1.0.2
+      - python-dateutil==2.8.2
+      - pytz==2021.3
+      - six==1.16.0
